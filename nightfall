@@ -63,7 +63,7 @@ cleanup(){
 cleanup
 
 printf "${GREEN}*** Pull zokrates docker image ***${NC}\n"
-docker pull zokrates/zokrates:0.5.1
+docker pull danarosedocker/tryout:0.5.1
 
 printf "${GREEN}*** Installing zkp-util dependencies ***${NC}\n"
 pushd zkp-utils
