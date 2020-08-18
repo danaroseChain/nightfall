@@ -1,5 +1,5 @@
 # Pull in a Zokrates container so that we can pull its contents into the below container.
-FROM danarosedocker/tryout:0.5.1 as builder
+FROM danarosedocker/tryout:latest as builder
 
 FROM node:11.15
 WORKDIR /app
