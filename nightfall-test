@@ -75,7 +75,7 @@ cleanup(){
 
 cleanup
 
-printf "${GREEN}*** Pull zokrates docker image ***${NC}\n"
+printf "${GREEN}*** Pull zokrates docker image Dana Im in nightfall test ***${NC}\n"
 docker pull danarosedocker/tryout:latest
 
 printf "${GREEN}*** Install node modules dependencies of nightfall ***${NC}\n"
