@@ -62,8 +62,8 @@ cleanup(){
 
 cleanup
 
-printf "${GREEN}*** Pull zokrates docker image ***${NC}\n"
-docker pull danarosedocker/tryout:0.5.1
+printf "${GREEN}*** Pull zokrates docker image DANA Im in nightfall ***${NC}\n"
+docker pull danarosedocker/tryout:latest
 
 printf "${GREEN}*** Installing zkp-util dependencies ***${NC}\n"
 pushd zkp-utils
