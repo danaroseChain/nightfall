@@ -76,7 +76,7 @@ cleanup(){
 cleanup
 
 printf "${GREEN}*** Pull zokrates docker image ***${NC}\n"
-docker pull danarosedocker/tryout:0.5.1
+docker pull danarosedocker/tryout:latest
 
 printf "${GREEN}*** Install node modules dependencies of nightfall ***${NC}\n"
 npm ci
